@@ -1,0 +1,42 @@
+# JupyterLite build outputs
+_output/
+dist/
+
+# JupyterLite build metadata
+.jupyterlite.doit.db
+.jupyterlite.doit.db.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter local cruft
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+.virtual_documents/
+.jupyter/
+.nbsignatures
+
+# Test/cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Logs
+*.log
